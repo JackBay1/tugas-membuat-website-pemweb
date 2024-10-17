@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sdTunasMuda</title>
+    <style>
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1, h2, h3 {
+  color: #f7ff04;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+p, ul {
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+#about, #vision-mission, #history, #facilities, #contact {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+        .header {
+            background-image: url('slide 1 (1).jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 500px;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
+
+        .header-content {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        }
+
+        .logo {
+        width: 105px; 
+        }
+
+        .nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px; 
+        }
+
+        .nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        }
+
+        .nav a:hover {
+            color: rgb(47, 0, 255);
+        }
+            
+        footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 10 0px;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img\logo_tunas-removebg-preview.png" alt="Logo" class="logo">
+        <nav class="nav">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#berita">Berita</a></li>
+        <li><a href="#school-profile">Profil Sekolah</a></li>
+        <li><a href="#about">tentang</a></li>
+        <li><a href="#vision-mission">visi-misi</a></li>
+        <li><a href="#history">sejarah</a></li>
+        <li><a href="#facilities">fasilitas</a></li>
+        <li><a href="#contact">kontak</a></li>
+    </ul>
+</nav>
+</div>
+    <header class="header">
+      <div class="header-content">
+          <h1>Selamat Datang</h1>
+          <h2>sekolah dasar tunas muda </h2>
+          <p>solusi siswa aktif dan hiperaktif</p>
+      </div>
+  </header>
+
+  <section class="school-profile">
+    <div class="container">
+
+      <!-- Nama Sekolah -->
+      <h1>Profil Sekolah - Sekolah Harapan Bangsa</h1>
+
+      <!-- Tentang Sekolah -->
+      <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Sekolah Dasar Tunas Muda didirikan pada tahun 2003 dengan komitmen untuk menyediakan pendidikan berkualitas tinggi bagi para siswa. Berlokasi di pusat kota, kami menawarkan program akademik yang unggul dengan fasilitas modern dan lingkungan yang mendukung perkembangan siswa secara holistik.</p>
+      </section>
+
+      <!-- Visi Misi -->
+      <section id="vision-mission">
+        <h2>Visi dan Misi</h2>
+        <h3>Visi</h3>
+        <p>Menciptakan generasi yang cerdas, berakhlak mulia, dan mampu bersaing di tingkat global.</p>
+        <h3>Misi</h3>
+        <ul>
+          <li>Memberikan pendidikan yang berkualitas dengan pendekatan yang inovatif.</li>
+          <li>Mengembangkan karakter siswa yang berintegritas dan berwawasan luas.</li>
+          <li>Mendorong kreativitas dan bakat siswa dalam berbagai bidang.</li>
+        </ul>
+      </section>
+
+      <!-- Sejarah Singkat -->
+      <section id="history">
+        <h2>Sejarah Singkat</h2>
+        <p>Sekolah Dasar Tunas muda pertama kali dibuka dengan 100 siswa dan kini telah berkembang menjadi salah satu sekolah terkemuka di kota dengan lebih dari 1000 siswa. Dengan fokus pada pengembangan akademik dan non-akademik, sekolah ini telah mencetak banyak lulusan berprestasi yang sukses di berbagai bidang.</p>
+      </section>
+
+      <!-- Fasilitas -->
+      <section id="facilities">
+        <h2>Fasilitas Sekolah</h2>
+        <ul>
+          <li>Laboratorium Sains dan Komputer modern</li>
+          <li>Perpustakaan dengan koleksi buku yang lengkap</li>
+          <li>Lapangan olahraga dan fasilitas seni</li>
+          <li>Ruang kelas yang nyaman dengan teknologi multimedia</li>
+        </ul>
+      </section>
+
+      <!-- Informasi Kontak -->
+      <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Alamat: Jalan dhoho No. 123, Madiun</p>
+        <p>Telepon: (021) 1234567</p>
+        <p>Email: info@sdTunasMuda.sch.id</p>
+      </section>
+
+    </div>
+  </section>
+
+</body>
+<footer>
+  <p>&copy; 2024 [sd Tunas Muda]. All Rights Reserved.</p>
+  <p>designed by <a href="index.html" target="_blank">bayu ardiansyah</a></p>
+</footer>
+</html>
